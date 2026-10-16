@@ -1,0 +1,447 @@
+dataset   data/input.txt: 1115394 chars, vocab 65
+model     4 layers, 4 heads, 128 dim, context 64 -> 0.81M parameters
+training  3000 steps, batch 16x64, lr 0.001, 4 threads
+
+step     1/3000 | loss 4.1919 | lr 1.00e-5 | grad norm  5.647 |   241 ms/step |   4241 tok/s
+step    10/3000 | loss 3.8045 | lr 1.00e-4 | grad norm  1.992 |   213 ms/step |   4808 tok/s
+step    20/3000 | loss 3.5891 | lr 2.00e-4 | grad norm  1.636 |   239 ms/step |   4283 tok/s
+step    30/3000 | loss 3.2514 | lr 3.00e-4 | grad norm  2.220 |   278 ms/step |   3686 tok/s
+step    40/3000 | loss 3.0991 | lr 4.00e-4 | grad norm  1.469 |   243 ms/step |   4218 tok/s
+step    50/3000 | loss 2.9110 | lr 5.00e-4 | grad norm  1.037 |   275 ms/step |   3719 tok/s
+step    60/3000 | loss 2.7451 | lr 6.00e-4 | grad norm  1.153 |   229 ms/step |   4463 tok/s
+step    70/3000 | loss 2.7538 | lr 7.00e-4 | grad norm  1.416 |   239 ms/step |   4290 tok/s
+step    80/3000 | loss 2.6513 | lr 8.00e-4 | grad norm  1.547 |   247 ms/step |   4152 tok/s
+step    90/3000 | loss 2.5885 | lr 9.00e-4 | grad norm  1.149 |   247 ms/step |   4153 tok/s
+step   100/3000 | loss 2.5859 | lr 1.00e-3 | grad norm  1.341 |   258 ms/step |   3963 tok/s
+step   110/3000 | loss 2.5742 | lr 1.00e-3 | grad norm  1.253 |   241 ms/step |   4245 tok/s
+step   120/3000 | loss 2.5597 | lr 1.00e-3 | grad norm  1.096 |   253 ms/step |   4046 tok/s
+step   130/3000 | loss 2.5864 | lr 1.00e-3 | grad norm  1.147 |   238 ms/step |   4298 tok/s
+step   140/3000 | loss 2.5303 | lr 1.00e-3 | grad norm  1.240 |   239 ms/step |   4288 tok/s
+step   150/3000 | loss 2.4983 | lr 9.99e-4 | grad norm  0.927 |   238 ms/step |   4298 tok/s
+step   160/3000 | loss 2.4967 | lr 9.99e-4 | grad norm  1.087 |   243 ms/step |   4206 tok/s
+step   170/3000 | loss 2.4263 | lr 9.99e-4 | grad norm  1.057 |   239 ms/step |   4280 tok/s
+step   180/3000 | loss 2.4928 | lr 9.98e-4 | grad norm  0.931 |   251 ms/step |   4080 tok/s
+step   190/3000 | loss 2.4627 | lr 9.98e-4 | grad norm  1.475 |   260 ms/step |   3936 tok/s
+step   200/3000 | loss 2.3857 | lr 9.97e-4 | grad norm  1.528 |   239 ms/step |   4277 tok/s
+step   210/3000 | loss 2.4519 | lr 9.97e-4 | grad norm  0.963 |   271 ms/step |   3777 tok/s
+step   220/3000 | loss 2.4934 | lr 9.96e-4 | grad norm  1.133 |   256 ms/step |   4000 tok/s
+step   230/3000 | loss 2.3605 | lr 9.96e-4 | grad norm  1.398 |   254 ms/step |   4031 tok/s
+step   240/3000 | loss 2.3727 | lr 9.95e-4 | grad norm  0.974 |   253 ms/step |   4052 tok/s
+step   250/3000 | loss 2.3769 | lr 9.94e-4 | grad norm  1.295 |   247 ms/step |   4143 tok/s
+
+=== step 250: val loss 2.4280  (best, saved)
+--- sample ---
+The thand i'gord wld tor awme,
+Them hin, nou thbr owam us do anor 'lllour me
+Guspl Orure aroupe tome hish the Gone toun r he cu
+Theano me ris isun dou an's tore tof antoup ongh fas athus. hild andin a
+--------------
+
+step   260/3000 | loss 2.3058 | lr 9.93e-4 | grad norm  0.912 |   249 ms/step |   4109 tok/s
+step   270/3000 | loss 2.3531 | lr 9.92e-4 | grad norm  0.857 |   248 ms/step |   4128 tok/s
+step   280/3000 | loss 2.4125 | lr 9.91e-4 | grad norm  1.141 |   246 ms/step |   4168 tok/s
+step   290/3000 | loss 2.3952 | lr 9.91e-4 | grad norm  2.035 |   257 ms/step |   3978 tok/s
+step   300/3000 | loss 2.3823 | lr 9.89e-4 | grad norm  0.965 |   251 ms/step |   4083 tok/s
+step   310/3000 | loss 2.3673 | lr 9.88e-4 | grad norm  1.015 |   265 ms/step |   3864 tok/s
+step   320/3000 | loss 2.3147 | lr 9.87e-4 | grad norm  1.159 |   253 ms/step |   4049 tok/s
+step   330/3000 | loss 2.3611 | lr 9.86e-4 | grad norm  0.920 |   255 ms/step |   4015 tok/s
+step   340/3000 | loss 2.3973 | lr 9.85e-4 | grad norm  1.366 |   242 ms/step |   4224 tok/s
+step   350/3000 | loss 2.4157 | lr 9.84e-4 | grad norm  1.018 |   234 ms/step |   4379 tok/s
+step   360/3000 | loss 2.3875 | lr 9.82e-4 | grad norm  1.046 |   241 ms/step |   4247 tok/s
+step   370/3000 | loss 2.3863 | lr 9.81e-4 | grad norm  0.993 |   235 ms/step |   4352 tok/s
+step   380/3000 | loss 2.3385 | lr 9.79e-4 | grad norm  1.295 |   237 ms/step |   4313 tok/s
+step   390/3000 | loss 2.3209 | lr 9.78e-4 | grad norm  1.126 |   241 ms/step |   4253 tok/s
+step   400/3000 | loss 2.2928 | lr 9.76e-4 | grad norm  0.960 |   233 ms/step |   4390 tok/s
+step   410/3000 | loss 2.3055 | lr 9.75e-4 | grad norm  1.545 |   240 ms/step |   4271 tok/s
+step   420/3000 | loss 2.2908 | lr 9.73e-4 | grad norm  0.848 |   227 ms/step |   4504 tok/s
+step   430/3000 | loss 2.2797 | lr 9.72e-4 | grad norm  1.071 |   251 ms/step |   4084 tok/s
+step   440/3000 | loss 2.2569 | lr 9.70e-4 | grad norm  0.861 |   252 ms/step |   4061 tok/s
+step   450/3000 | loss 2.2748 | lr 9.68e-4 | grad norm  0.956 |   244 ms/step |   4190 tok/s
+step   460/3000 | loss 2.3092 | lr 9.66e-4 | grad norm  1.057 |   252 ms/step |   4070 tok/s
+step   470/3000 | loss 2.2433 | lr 9.64e-4 | grad norm  1.045 |   232 ms/step |   4412 tok/s
+step   480/3000 | loss 2.2786 | lr 9.62e-4 | grad norm  0.952 |   243 ms/step |   4206 tok/s
+step   490/3000 | loss 2.2018 | lr 9.60e-4 | grad norm  1.128 |   246 ms/step |   4161 tok/s
+step   500/3000 | loss 2.2720 | lr 9.58e-4 | grad norm  1.219 |   244 ms/step |   4200 tok/s
+
+=== step 500: val loss 2.2612  (best, saved)
+--- sample ---
+
+My meane, mur that wraphef.
+
+QUSTROE; ED:
+
+Ay sprus, my ad he to wee my Bune coutan you thar hee aformf,
+Heat, prie ir sous and wict lom,
+And be haret aing anke hind wa dit af larendse,
+I a irevond o
+--------------
+
+step   510/3000 | loss 2.2265 | lr 9.56e-4 | grad norm  1.253 |   249 ms/step |   4110 tok/s
+step   520/3000 | loss 2.2194 | lr 9.54e-4 | grad norm  1.101 |   242 ms/step |   4230 tok/s
+step   530/3000 | loss 2.1866 | lr 9.52e-4 | grad norm  0.936 |   265 ms/step |   3860 tok/s
+step   540/3000 | loss 2.2492 | lr 9.50e-4 | grad norm  1.198 |   264 ms/step |   3876 tok/s
+step   550/3000 | loss 2.2086 | lr 9.48e-4 | grad norm  1.140 |   237 ms/step |   4316 tok/s
+step   560/3000 | loss 2.1228 | lr 9.45e-4 | grad norm  1.013 |   240 ms/step |   4270 tok/s
+step   570/3000 | loss 2.1705 | lr 9.43e-4 | grad norm  1.127 |   233 ms/step |   4390 tok/s
+step   580/3000 | loss 2.2294 | lr 9.41e-4 | grad norm  1.117 |   246 ms/step |   4165 tok/s
+step   590/3000 | loss 2.1223 | lr 9.38e-4 | grad norm  1.166 |   237 ms/step |   4317 tok/s
+step   600/3000 | loss 2.1239 | lr 9.36e-4 | grad norm  1.200 |   240 ms/step |   4262 tok/s
+step   610/3000 | loss 2.1534 | lr 9.33e-4 | grad norm  1.235 |   218 ms/step |   4699 tok/s
+step   620/3000 | loss 2.1001 | lr 9.30e-4 | grad norm  1.066 |   248 ms/step |   4136 tok/s
+step   630/3000 | loss 2.0873 | lr 9.28e-4 | grad norm  1.621 |   231 ms/step |   4439 tok/s
+step   640/3000 | loss 2.2099 | lr 9.25e-4 | grad norm  1.183 |   237 ms/step |   4312 tok/s
+step   650/3000 | loss 2.1490 | lr 9.22e-4 | grad norm  1.035 |   240 ms/step |   4269 tok/s
+step   660/3000 | loss 2.1213 | lr 9.20e-4 | grad norm  1.118 |   252 ms/step |   4065 tok/s
+step   670/3000 | loss 2.0951 | lr 9.17e-4 | grad norm  1.183 |   284 ms/step |   3602 tok/s
+step   680/3000 | loss 2.1223 | lr 9.14e-4 | grad norm  1.274 |   258 ms/step |   3974 tok/s
+step   690/3000 | loss 2.0634 | lr 9.11e-4 | grad norm  1.388 |   247 ms/step |   4150 tok/s
+step   700/3000 | loss 2.1234 | lr 9.08e-4 | grad norm  1.337 |   244 ms/step |   4205 tok/s
+step   710/3000 | loss 2.1018 | lr 9.05e-4 | grad norm  1.498 |   254 ms/step |   4039 tok/s
+step   720/3000 | loss 2.1580 | lr 9.02e-4 | grad norm  1.239 |   250 ms/step |   4100 tok/s
+step   730/3000 | loss 1.9946 | lr 8.99e-4 | grad norm  1.206 |   243 ms/step |   4205 tok/s
+step   740/3000 | loss 2.0546 | lr 8.96e-4 | grad norm  1.469 |   253 ms/step |   4042 tok/s
+step   750/3000 | loss 2.0077 | lr 8.93e-4 | grad norm  1.774 |   250 ms/step |   4104 tok/s
+
+=== step 750: val loss 2.1271  (best, saved)
+--- sample ---
+Hearwerd have not as of ther asen bretar:
+boong moe, had cove bof do beaght thoughiourssined,
+Buss I, wit s I me las how this tight
+We athe an wort we is somer beay cod ardepper it et,
+Whe you asce in
+--------------
+
+step   760/3000 | loss 2.0479 | lr 8.90e-4 | grad norm  1.596 |   253 ms/step |   4055 tok/s
+step   770/3000 | loss 2.0996 | lr 8.87e-4 | grad norm  1.178 |   251 ms/step |   4087 tok/s
+step   780/3000 | loss 2.1297 | lr 8.83e-4 | grad norm  1.351 |   237 ms/step |   4321 tok/s
+step   790/3000 | loss 2.0035 | lr 8.80e-4 | grad norm  1.336 |   251 ms/step |   4072 tok/s
+step   800/3000 | loss 2.0183 | lr 8.77e-4 | grad norm  1.361 |   239 ms/step |   4291 tok/s
+step   810/3000 | loss 2.0860 | lr 8.73e-4 | grad norm  1.410 |   236 ms/step |   4332 tok/s
+step   820/3000 | loss 2.0070 | lr 8.70e-4 | grad norm  1.474 |   247 ms/step |   4140 tok/s
+step   830/3000 | loss 1.9946 | lr 8.66e-4 | grad norm  1.451 |   261 ms/step |   3927 tok/s
+step   840/3000 | loss 1.9510 | lr 8.63e-4 | grad norm  1.358 |   255 ms/step |   4016 tok/s
+step   850/3000 | loss 1.9104 | lr 8.59e-4 | grad norm  1.277 |   248 ms/step |   4132 tok/s
+step   860/3000 | loss 2.0622 | lr 8.56e-4 | grad norm  1.331 |   251 ms/step |   4085 tok/s
+step   870/3000 | loss 2.0569 | lr 8.52e-4 | grad norm  1.368 |   258 ms/step |   3972 tok/s
+step   880/3000 | loss 2.0150 | lr 8.49e-4 | grad norm  1.369 |   251 ms/step |   4077 tok/s
+step   890/3000 | loss 1.9714 | lr 8.45e-4 | grad norm  1.552 |   253 ms/step |   4046 tok/s
+step   900/3000 | loss 1.9727 | lr 8.41e-4 | grad norm  1.298 |   248 ms/step |   4133 tok/s
+step   910/3000 | loss 2.0080 | lr 8.38e-4 | grad norm  1.202 |   243 ms/step |   4206 tok/s
+step   920/3000 | loss 2.0346 | lr 8.34e-4 | grad norm  1.372 |   239 ms/step |   4282 tok/s
+step   930/3000 | loss 1.9431 | lr 8.30e-4 | grad norm  1.298 |   241 ms/step |   4241 tok/s
+step   940/3000 | loss 1.9926 | lr 8.26e-4 | grad norm  1.330 |   243 ms/step |   4222 tok/s
+step   950/3000 | loss 1.9159 | lr 8.22e-4 | grad norm  1.633 |   242 ms/step |   4236 tok/s
+step   960/3000 | loss 1.9436 | lr 8.18e-4 | grad norm  1.375 |   248 ms/step |   4123 tok/s
+step   970/3000 | loss 1.9346 | lr 8.15e-4 | grad norm  1.666 |   259 ms/step |   3952 tok/s
+step   980/3000 | loss 2.0429 | lr 8.11e-4 | grad norm  1.799 |   268 ms/step |   3827 tok/s
+step   990/3000 | loss 1.9908 | lr 8.07e-4 | grad norm  1.281 |   261 ms/step |   3916 tok/s
+step  1000/3000 | loss 1.9348 | lr 8.03e-4 | grad norm  1.840 |   265 ms/step |   3869 tok/s
+
+=== step 1000: val loss 2.0650  (best, saved)
+--- sample ---
+WillI? raved that it me here to to dreath but deat fre you.
+I have thes reselve thin the has has kimings,
+The thy, of thich, wall the and thue nar that will;
+I and wond his to is well onge the to it h
+--------------
+
+step  1010/3000 | loss 1.9920 | lr 7.98e-4 | grad norm  1.442 |   248 ms/step |   4128 tok/s
+step  1020/3000 | loss 1.8754 | lr 7.94e-4 | grad norm  1.316 |   241 ms/step |   4252 tok/s
+step  1030/3000 | loss 1.9517 | lr 7.90e-4 | grad norm  1.366 |   237 ms/step |   4318 tok/s
+step  1040/3000 | loss 1.8442 | lr 7.86e-4 | grad norm  1.599 |   243 ms/step |   4220 tok/s
+step  1050/3000 | loss 1.8829 | lr 7.82e-4 | grad norm  1.559 |   238 ms/step |   4301 tok/s
+step  1060/3000 | loss 1.8895 | lr 7.78e-4 | grad norm  1.506 |   247 ms/step |   4141 tok/s
+step  1070/3000 | loss 1.8931 | lr 7.74e-4 | grad norm  1.802 |   262 ms/step |   3901 tok/s
+step  1080/3000 | loss 1.8344 | lr 7.69e-4 | grad norm  1.211 |   253 ms/step |   4051 tok/s
+step  1090/3000 | loss 1.9002 | lr 7.65e-4 | grad norm  1.607 |   246 ms/step |   4166 tok/s
+step  1100/3000 | loss 1.9440 | lr 7.61e-4 | grad norm  1.279 |   243 ms/step |   4213 tok/s
+step  1110/3000 | loss 1.8734 | lr 7.56e-4 | grad norm  1.407 |   256 ms/step |   4005 tok/s
+step  1120/3000 | loss 1.8954 | lr 7.52e-4 | grad norm  1.530 |   264 ms/step |   3878 tok/s
+step  1130/3000 | loss 1.8303 | lr 7.48e-4 | grad norm  1.522 |   244 ms/step |   4189 tok/s
+step  1140/3000 | loss 1.9776 | lr 7.43e-4 | grad norm  1.398 |   246 ms/step |   4162 tok/s
+step  1150/3000 | loss 1.8952 | lr 7.39e-4 | grad norm  1.528 |   238 ms/step |   4310 tok/s
+step  1160/3000 | loss 1.8735 | lr 7.35e-4 | grad norm  1.898 |   251 ms/step |   4087 tok/s
+step  1170/3000 | loss 1.8991 | lr 7.30e-4 | grad norm  1.386 |   248 ms/step |   4131 tok/s
+step  1180/3000 | loss 1.8238 | lr 7.26e-4 | grad norm  1.378 |   249 ms/step |   4115 tok/s
+step  1190/3000 | loss 1.9365 | lr 7.21e-4 | grad norm  1.388 |   249 ms/step |   4114 tok/s
+step  1200/3000 | loss 1.8180 | lr 7.17e-4 | grad norm  1.578 |   244 ms/step |   4189 tok/s
+step  1210/3000 | loss 1.8504 | lr 7.12e-4 | grad norm  1.418 |   241 ms/step |   4257 tok/s
+step  1220/3000 | loss 1.9403 | lr 7.07e-4 | grad norm  1.328 |   236 ms/step |   4335 tok/s
+step  1230/3000 | loss 1.7084 | lr 7.03e-4 | grad norm  1.343 |   250 ms/step |   4093 tok/s
+step  1240/3000 | loss 1.8305 | lr 6.98e-4 | grad norm  1.570 |   252 ms/step |   4063 tok/s
+step  1250/3000 | loss 1.9348 | lr 6.94e-4 | grad norm  1.824 |   240 ms/step |   4275 tok/s
+
+=== step 1250: val loss 1.9788  (best, saved)
+--- sample ---
+A and prover of hear have thinkdered.
+
+KING JUNETH:
+He'e, I ded uke a do so light:
+For pechard no know thing priett and for to and
+Say muotuliuss thour could your thim like,
+And the littence, the bese
+--------------
+
+step  1260/3000 | loss 1.8616 | lr 6.89e-4 | grad norm  1.594 |   249 ms/step |   4119 tok/s
+step  1270/3000 | loss 1.7727 | lr 6.84e-4 | grad norm  1.517 |   262 ms/step |   3901 tok/s
+step  1280/3000 | loss 1.8727 | lr 6.80e-4 | grad norm  1.906 |   256 ms/step |   3995 tok/s
+step  1290/3000 | loss 1.8587 | lr 6.75e-4 | grad norm  2.122 |   248 ms/step |   4129 tok/s
+step  1300/3000 | loss 1.8604 | lr 6.70e-4 | grad norm  1.748 |   241 ms/step |   4249 tok/s
+step  1310/3000 | loss 1.7609 | lr 6.66e-4 | grad norm  1.558 |   258 ms/step |   3964 tok/s
+step  1320/3000 | loss 1.8494 | lr 6.61e-4 | grad norm  1.565 |   252 ms/step |   4069 tok/s
+step  1330/3000 | loss 1.8695 | lr 6.56e-4 | grad norm  1.563 |   251 ms/step |   4078 tok/s
+step  1340/3000 | loss 1.8807 | lr 6.51e-4 | grad norm  1.625 |   256 ms/step |   4007 tok/s
+step  1350/3000 | loss 1.8747 | lr 6.47e-4 | grad norm  1.501 |   248 ms/step |   4137 tok/s
+step  1360/3000 | loss 1.9546 | lr 6.42e-4 | grad norm  1.592 |   249 ms/step |   4110 tok/s
+step  1370/3000 | loss 1.8148 | lr 6.37e-4 | grad norm  1.408 |   264 ms/step |   3885 tok/s
+step  1380/3000 | loss 1.7448 | lr 6.32e-4 | grad norm  1.349 |   252 ms/step |   4067 tok/s
+step  1390/3000 | loss 1.7734 | lr 6.28e-4 | grad norm  1.507 |   265 ms/step |   3861 tok/s
+step  1400/3000 | loss 1.7523 | lr 6.23e-4 | grad norm  1.540 |   257 ms/step |   3991 tok/s
+step  1410/3000 | loss 1.8413 | lr 6.18e-4 | grad norm  1.513 |   253 ms/step |   4053 tok/s
+step  1420/3000 | loss 1.8160 | lr 6.13e-4 | grad norm  1.328 |   261 ms/step |   3921 tok/s
+step  1430/3000 | loss 1.9213 | lr 6.08e-4 | grad norm  1.508 |   249 ms/step |   4113 tok/s
+step  1440/3000 | loss 1.8794 | lr 6.03e-4 | grad norm  1.414 |   255 ms/step |   4019 tok/s
+step  1450/3000 | loss 1.7356 | lr 5.99e-4 | grad norm  1.571 |   271 ms/step |   3784 tok/s
+step  1460/3000 | loss 1.8374 | lr 5.94e-4 | grad norm  2.042 |   258 ms/step |   3976 tok/s
+step  1470/3000 | loss 1.7515 | lr 5.89e-4 | grad norm  1.670 |   252 ms/step |   4066 tok/s
+step  1480/3000 | loss 1.7804 | lr 5.84e-4 | grad norm  1.737 |   242 ms/step |   4223 tok/s
+step  1490/3000 | loss 1.7269 | lr 5.79e-4 | grad norm  1.441 |   249 ms/step |   4118 tok/s
+step  1500/3000 | loss 1.9122 | lr 5.74e-4 | grad norm  1.721 |   251 ms/step |   4078 tok/s
+
+=== step 1500: val loss 1.9219  (best, saved)
+--- sample ---
+KING LUCENTIO:
+My to shine cand casper for me of blook
+I shinour fance your readven dumon
+I bearth take tought the plown, I sove name heav of to
+the bearr eye sold so at leept,
+I he cape, hellI last m
+--------------
+
+step  1510/3000 | loss 1.7987 | lr 5.69e-4 | grad norm  1.556 |   261 ms/step |   3929 tok/s
+step  1520/3000 | loss 1.7678 | lr 5.65e-4 | grad norm  1.582 |   246 ms/step |   4159 tok/s
+step  1530/3000 | loss 1.8574 | lr 5.60e-4 | grad norm  1.818 |   257 ms/step |   3991 tok/s
+step  1540/3000 | loss 1.7911 | lr 5.55e-4 | grad norm  1.625 |   250 ms/step |   4090 tok/s
+step  1550/3000 | loss 1.8145 | lr 5.50e-4 | grad norm  1.402 |   254 ms/step |   4025 tok/s
+step  1560/3000 | loss 1.8210 | lr 5.45e-4 | grad norm  1.783 |   266 ms/step |   3850 tok/s
+step  1570/3000 | loss 1.7006 | lr 5.40e-4 | grad norm  1.646 |   254 ms/step |   4024 tok/s
+step  1580/3000 | loss 1.7362 | lr 5.35e-4 | grad norm  1.499 |   260 ms/step |   3933 tok/s
+step  1590/3000 | loss 1.7787 | lr 5.31e-4 | grad norm  1.620 |   249 ms/step |   4115 tok/s
+step  1600/3000 | loss 1.7837 | lr 5.26e-4 | grad norm  1.495 |   250 ms/step |   4094 tok/s
+step  1610/3000 | loss 1.8483 | lr 5.21e-4 | grad norm  1.661 |   241 ms/step |   4256 tok/s
+step  1620/3000 | loss 1.7023 | lr 5.16e-4 | grad norm  1.429 |   236 ms/step |   4347 tok/s
+step  1630/3000 | loss 1.8364 | lr 5.11e-4 | grad norm  1.674 |   241 ms/step |   4244 tok/s
+step  1640/3000 | loss 1.6035 | lr 5.06e-4 | grad norm  1.505 |   264 ms/step |   3873 tok/s
+step  1650/3000 | loss 1.7850 | lr 5.01e-4 | grad norm  1.633 |   250 ms/step |   4091 tok/s
+step  1660/3000 | loss 1.7021 | lr 4.97e-4 | grad norm  1.527 |   254 ms/step |   4027 tok/s
+step  1670/3000 | loss 1.6979 | lr 4.92e-4 | grad norm  1.583 |   271 ms/step |   3776 tok/s
+step  1680/3000 | loss 1.7101 | lr 4.87e-4 | grad norm  1.574 |   256 ms/step |   4001 tok/s
+step  1690/3000 | loss 1.7693 | lr 4.82e-4 | grad norm  1.564 |   256 ms/step |   3993 tok/s
+step  1700/3000 | loss 1.7392 | lr 4.77e-4 | grad norm  1.532 |   279 ms/step |   3673 tok/s
+step  1710/3000 | loss 1.7405 | lr 4.72e-4 | grad norm  1.565 |   241 ms/step |   4256 tok/s
+step  1720/3000 | loss 1.7398 | lr 4.68e-4 | grad norm  1.531 |   241 ms/step |   4246 tok/s
+step  1730/3000 | loss 1.7109 | lr 4.63e-4 | grad norm  1.408 |   224 ms/step |   4563 tok/s
+step  1740/3000 | loss 1.6970 | lr 4.58e-4 | grad norm  1.745 |   245 ms/step |   4174 tok/s
+step  1750/3000 | loss 1.7826 | lr 4.53e-4 | grad norm  1.390 |   258 ms/step |   3974 tok/s
+
+=== step 1750: val loss 1.8810  (best, saved)
+--- sample ---
+
+GRICURE:
+I am swing that for you bould;
+Hown whose all as your bance and things
+Wake all senced thee dayus what dight: now my mine;
+Where me, for he will stourned sing thy lood.
+
+LEONTES:
+Shall able 
+--------------
+
+step  1760/3000 | loss 1.6825 | lr 4.49e-4 | grad norm  1.490 |   239 ms/step |   4283 tok/s
+step  1770/3000 | loss 1.7770 | lr 4.44e-4 | grad norm  1.969 |   248 ms/step |   4123 tok/s
+step  1780/3000 | loss 1.7842 | lr 4.39e-4 | grad norm  1.927 |   271 ms/step |   3783 tok/s
+step  1790/3000 | loss 1.7602 | lr 4.34e-4 | grad norm  1.621 |   245 ms/step |   4180 tok/s
+step  1800/3000 | loss 1.8094 | lr 4.30e-4 | grad norm  1.700 |   237 ms/step |   4327 tok/s
+step  1810/3000 | loss 1.7948 | lr 4.25e-4 | grad norm  1.774 |   236 ms/step |   4340 tok/s
+step  1820/3000 | loss 1.6419 | lr 4.20e-4 | grad norm  1.784 |   253 ms/step |   4045 tok/s
+step  1830/3000 | loss 1.6736 | lr 4.16e-4 | grad norm  1.565 |   256 ms/step |   3997 tok/s
+step  1840/3000 | loss 1.6147 | lr 4.11e-4 | grad norm  1.489 |   237 ms/step |   4323 tok/s
+step  1850/3000 | loss 1.7448 | lr 4.06e-4 | grad norm  1.875 |   253 ms/step |   4043 tok/s
+step  1860/3000 | loss 1.6820 | lr 4.02e-4 | grad norm  1.647 |   252 ms/step |   4058 tok/s
+step  1870/3000 | loss 1.7441 | lr 3.97e-4 | grad norm  2.038 |   245 ms/step |   4186 tok/s
+step  1880/3000 | loss 1.7044 | lr 3.93e-4 | grad norm  1.538 |   247 ms/step |   4138 tok/s
+step  1890/3000 | loss 1.7298 | lr 3.88e-4 | grad norm  1.755 |   234 ms/step |   4377 tok/s
+step  1900/3000 | loss 1.6735 | lr 3.83e-4 | grad norm  1.787 |   259 ms/step |   3952 tok/s
+step  1910/3000 | loss 1.8347 | lr 3.79e-4 | grad norm  1.598 |   249 ms/step |   4119 tok/s
+step  1920/3000 | loss 1.6442 | lr 3.74e-4 | grad norm  1.772 |   254 ms/step |   4033 tok/s
+step  1930/3000 | loss 1.7358 | lr 3.70e-4 | grad norm  1.552 |   241 ms/step |   4250 tok/s
+step  1940/3000 | loss 1.7117 | lr 3.65e-4 | grad norm  1.545 |   227 ms/step |   4517 tok/s
+step  1950/3000 | loss 1.6156 | lr 3.61e-4 | grad norm  2.217 |   235 ms/step |   4349 tok/s
+step  1960/3000 | loss 1.6044 | lr 3.57e-4 | grad norm  1.589 |   237 ms/step |   4325 tok/s
+step  1970/3000 | loss 1.6225 | lr 3.52e-4 | grad norm  1.643 |   235 ms/step |   4366 tok/s
+step  1980/3000 | loss 1.6611 | lr 3.48e-4 | grad norm  1.855 |   239 ms/step |   4284 tok/s
+step  1990/3000 | loss 1.6665 | lr 3.44e-4 | grad norm  1.433 |   229 ms/step |   4470 tok/s
+step  2000/3000 | loss 1.5985 | lr 3.39e-4 | grad norm  1.594 |   240 ms/step |   4270 tok/s
+
+=== step 2000: val loss 1.8365  (best, saved)
+--- sample ---
+Are the are I pover you, the the are sone griel.
+
+KING EDWARD:
+There blaster to it, these mean's dess on the ear
+To God rown or me, soom to they lord;
+There almion and of the pele, mank in deishald th
+--------------
+
+step  2010/3000 | loss 1.6449 | lr 3.35e-4 | grad norm  1.712 |   269 ms/step |   3809 tok/s
+step  2020/3000 | loss 1.7877 | lr 3.31e-4 | grad norm  1.676 |   248 ms/step |   4129 tok/s
+step  2030/3000 | loss 1.7151 | lr 3.26e-4 | grad norm  1.727 |   237 ms/step |   4328 tok/s
+step  2040/3000 | loss 1.6702 | lr 3.22e-4 | grad norm  1.736 |   228 ms/step |   4490 tok/s
+step  2050/3000 | loss 1.6958 | lr 3.18e-4 | grad norm  1.826 |   224 ms/step |   4578 tok/s
+step  2060/3000 | loss 1.5021 | lr 3.14e-4 | grad norm  1.421 |   230 ms/step |   4454 tok/s
+step  2070/3000 | loss 1.6205 | lr 3.10e-4 | grad norm  1.687 |   227 ms/step |   4519 tok/s
+step  2080/3000 | loss 1.6524 | lr 3.06e-4 | grad norm  1.766 |   233 ms/step |   4389 tok/s
+step  2090/3000 | loss 1.7046 | lr 3.02e-4 | grad norm  1.733 |   236 ms/step |   4332 tok/s
+step  2100/3000 | loss 1.6061 | lr 2.97e-4 | grad norm  1.623 |   228 ms/step |   4488 tok/s
+step  2110/3000 | loss 1.7999 | lr 2.93e-4 | grad norm  1.659 |   222 ms/step |   4608 tok/s
+step  2120/3000 | loss 1.6783 | lr 2.89e-4 | grad norm  1.806 |   229 ms/step |   4464 tok/s
+step  2130/3000 | loss 1.6366 | lr 2.85e-4 | grad norm  1.649 |   262 ms/step |   3911 tok/s
+step  2140/3000 | loss 1.6236 | lr 2.82e-4 | grad norm  1.626 |   244 ms/step |   4204 tok/s
+step  2150/3000 | loss 1.6464 | lr 2.78e-4 | grad norm  1.574 |   239 ms/step |   4290 tok/s
+step  2160/3000 | loss 1.7187 | lr 2.74e-4 | grad norm  1.727 |   235 ms/step |   4364 tok/s
+step  2170/3000 | loss 1.6520 | lr 2.70e-4 | grad norm  1.651 |   230 ms/step |   4458 tok/s
+step  2180/3000 | loss 1.7638 | lr 2.66e-4 | grad norm  1.756 |   226 ms/step |   4533 tok/s
+step  2190/3000 | loss 1.6582 | lr 2.62e-4 | grad norm  1.622 |   230 ms/step |   4444 tok/s
+step  2200/3000 | loss 1.6248 | lr 2.59e-4 | grad norm  1.780 |   245 ms/step |   4179 tok/s
+step  2210/3000 | loss 1.7140 | lr 2.55e-4 | grad norm  1.674 |   253 ms/step |   4055 tok/s
+step  2220/3000 | loss 1.6433 | lr 2.51e-4 | grad norm  1.545 |   243 ms/step |   4221 tok/s
+step  2230/3000 | loss 1.6732 | lr 2.48e-4 | grad norm  2.387 |   224 ms/step |   4571 tok/s
+step  2240/3000 | loss 1.6285 | lr 2.44e-4 | grad norm  1.930 |   215 ms/step |   4758 tok/s
+step  2250/3000 | loss 1.6577 | lr 2.41e-4 | grad norm  1.776 |   221 ms/step |   4636 tok/s
+
+=== step 2250: val loss 1.7948  (best, saved)
+--- sample ---
+Your sweet the will of more to the criefit,
+And sweet my connsemil the lives: the keep thou?
+
+LYTNRY:
+Mest to my reeply will in the of talk and hrip;
+And Gojurve them abonatury teld of with to tears
+A
+--------------
+
+step  2260/3000 | loss 1.6493 | lr 2.37e-4 | grad norm  1.863 |   241 ms/step |   4249 tok/s
+step  2270/3000 | loss 1.5532 | lr 2.34e-4 | grad norm  1.637 |   229 ms/step |   4481 tok/s
+step  2280/3000 | loss 1.6458 | lr 2.30e-4 | grad norm  1.605 |   236 ms/step |   4344 tok/s
+step  2290/3000 | loss 1.5761 | lr 2.27e-4 | grad norm  1.709 |   236 ms/step |   4342 tok/s
+step  2300/3000 | loss 1.6107 | lr 2.23e-4 | grad norm  1.893 |   242 ms/step |   4224 tok/s
+step  2310/3000 | loss 1.6594 | lr 2.20e-4 | grad norm  1.800 |   241 ms/step |   4250 tok/s
+step  2320/3000 | loss 1.5781 | lr 2.17e-4 | grad norm  1.675 |   222 ms/step |   4608 tok/s
+step  2330/3000 | loss 1.6633 | lr 2.13e-4 | grad norm  1.533 |   230 ms/step |   4454 tok/s
+step  2340/3000 | loss 1.6655 | lr 2.10e-4 | grad norm  1.811 |   239 ms/step |   4285 tok/s
+step  2350/3000 | loss 1.5963 | lr 2.07e-4 | grad norm  1.799 |   219 ms/step |   4682 tok/s
+step  2360/3000 | loss 1.5711 | lr 2.04e-4 | grad norm  1.697 |   223 ms/step |   4585 tok/s
+step  2370/3000 | loss 1.6483 | lr 2.01e-4 | grad norm  1.949 |   245 ms/step |   4180 tok/s
+step  2380/3000 | loss 1.5654 | lr 1.98e-4 | grad norm  1.661 |   275 ms/step |   3727 tok/s
+step  2390/3000 | loss 1.6476 | lr 1.95e-4 | grad norm  1.924 |   265 ms/step |   3858 tok/s
+step  2400/3000 | loss 1.5970 | lr 1.92e-4 | grad norm  1.705 |   282 ms/step |   3627 tok/s
+step  2410/3000 | loss 1.6273 | lr 1.89e-4 | grad norm  1.720 |   234 ms/step |   4376 tok/s
+step  2420/3000 | loss 1.6515 | lr 1.86e-4 | grad norm  1.757 |   216 ms/step |   4747 tok/s
+step  2430/3000 | loss 1.5423 | lr 1.83e-4 | grad norm  2.032 |   223 ms/step |   4597 tok/s
+step  2440/3000 | loss 1.6221 | lr 1.80e-4 | grad norm  1.838 |   235 ms/step |   4362 tok/s
+step  2450/3000 | loss 1.4963 | lr 1.78e-4 | grad norm  1.644 |   237 ms/step |   4318 tok/s
+step  2460/3000 | loss 1.5110 | lr 1.75e-4 | grad norm  1.650 |   224 ms/step |   4577 tok/s
+step  2470/3000 | loss 1.5658 | lr 1.72e-4 | grad norm  1.555 |   241 ms/step |   4247 tok/s
+step  2480/3000 | loss 1.5897 | lr 1.70e-4 | grad norm  1.744 |   231 ms/step |   4431 tok/s
+step  2490/3000 | loss 1.5719 | lr 1.67e-4 | grad norm  1.496 |   243 ms/step |   4215 tok/s
+step  2500/3000 | loss 1.6397 | lr 1.64e-4 | grad norm  1.554 |   255 ms/step |   4019 tok/s
+
+=== step 2500: val loss 1.7672  (best, saved)
+--- sample ---
+A weal so feen it think that shame a trues
+Would rones, if I come and than parnat,
+A though evic nhat king was that the was and town
+That anow the gress and and upon asure resess
+In tenge to me upon m
+--------------
+
+step  2510/3000 | loss 1.6025 | lr 1.62e-4 | grad norm  1.748 |   243 ms/step |   4219 tok/s
+step  2520/3000 | loss 1.6519 | lr 1.59e-4 | grad norm  2.109 |   245 ms/step |   4172 tok/s
+step  2530/3000 | loss 1.5962 | lr 1.57e-4 | grad norm  1.873 |   247 ms/step |   4153 tok/s
+step  2540/3000 | loss 1.5554 | lr 1.55e-4 | grad norm  1.651 |   231 ms/step |   4442 tok/s
+step  2550/3000 | loss 1.6459 | lr 1.52e-4 | grad norm  1.586 |   218 ms/step |   4702 tok/s
+step  2560/3000 | loss 1.6064 | lr 1.50e-4 | grad norm  1.688 |   237 ms/step |   4325 tok/s
+step  2570/3000 | loss 1.6034 | lr 1.48e-4 | grad norm  1.683 |   245 ms/step |   4178 tok/s
+step  2580/3000 | loss 1.5964 | lr 1.46e-4 | grad norm  1.631 |   238 ms/step |   4306 tok/s
+step  2590/3000 | loss 1.6378 | lr 1.44e-4 | grad norm  1.763 |   228 ms/step |   4501 tok/s
+step  2600/3000 | loss 1.6192 | lr 1.42e-4 | grad norm  1.844 |   248 ms/step |   4123 tok/s
+step  2610/3000 | loss 1.6164 | lr 1.40e-4 | grad norm  1.556 |   247 ms/step |   4143 tok/s
+step  2620/3000 | loss 1.6081 | lr 1.38e-4 | grad norm  1.787 |   231 ms/step |   4435 tok/s
+step  2630/3000 | loss 1.6393 | lr 1.36e-4 | grad norm  1.828 |   230 ms/step |   4450 tok/s
+step  2640/3000 | loss 1.5807 | lr 1.34e-4 | grad norm  1.903 |   237 ms/step |   4322 tok/s
+step  2650/3000 | loss 1.6458 | lr 1.32e-4 | grad norm  1.820 |   237 ms/step |   4318 tok/s
+step  2660/3000 | loss 1.5762 | lr 1.30e-4 | grad norm  1.654 |   230 ms/step |   4447 tok/s
+step  2670/3000 | loss 1.5579 | lr 1.28e-4 | grad norm  1.833 |   229 ms/step |   4467 tok/s
+step  2680/3000 | loss 1.5854 | lr 1.27e-4 | grad norm  1.678 |   235 ms/step |   4351 tok/s
+step  2690/3000 | loss 1.6454 | lr 1.25e-4 | grad norm  1.778 |   239 ms/step |   4278 tok/s
+step  2700/3000 | loss 1.5971 | lr 1.24e-4 | grad norm  1.507 |   237 ms/step |   4328 tok/s
+step  2710/3000 | loss 1.6790 | lr 1.22e-4 | grad norm  1.780 |   232 ms/step |   4411 tok/s
+step  2720/3000 | loss 1.5810 | lr 1.21e-4 | grad norm  1.846 |   228 ms/step |   4494 tok/s
+step  2730/3000 | loss 1.6880 | lr 1.19e-4 | grad norm  1.608 |   248 ms/step |   4134 tok/s
+step  2740/3000 | loss 1.5656 | lr 1.18e-4 | grad norm  1.578 |   251 ms/step |   4080 tok/s
+step  2750/3000 | loss 1.5694 | lr 1.16e-4 | grad norm  1.892 |   249 ms/step |   4108 tok/s
+
+=== step 2750: val loss 1.7451  (best, saved)
+--- sample ---
+
+QUEEN MARGARET:
+This may shoods, so lip
+That vellige, and in thou man slive,
+But a a do the spake o'll consment your as and
+The come follows somewe on did twill of parth
+Of he way upon the chilling b
+--------------
+
+step  2760/3000 | loss 1.6809 | lr 1.15e-4 | grad norm  1.819 |   249 ms/step |   4118 tok/s
+step  2770/3000 | loss 1.7100 | lr 1.14e-4 | grad norm  2.092 |   247 ms/step |   4142 tok/s
+step  2780/3000 | loss 1.6259 | lr 1.13e-4 | grad norm  1.895 |   232 ms/step |   4406 tok/s
+step  2790/3000 | loss 1.4587 | lr 1.12e-4 | grad norm  1.641 |   242 ms/step |   4232 tok/s
+step  2800/3000 | loss 1.5742 | lr 1.11e-4 | grad norm  1.878 |   232 ms/step |   4422 tok/s
+step  2810/3000 | loss 1.6294 | lr 1.09e-4 | grad norm  2.266 |   240 ms/step |   4270 tok/s
+step  2820/3000 | loss 1.6169 | lr 1.09e-4 | grad norm  2.004 |   231 ms/step |   4430 tok/s
+step  2830/3000 | loss 1.5475 | lr 1.08e-4 | grad norm  1.777 |   251 ms/step |   4074 tok/s
+step  2840/3000 | loss 1.5600 | lr 1.07e-4 | grad norm  1.758 |   258 ms/step |   3972 tok/s
+step  2850/3000 | loss 1.5646 | lr 1.06e-4 | grad norm  1.876 |   270 ms/step |   3798 tok/s
+step  2860/3000 | loss 1.4751 | lr 1.05e-4 | grad norm  1.927 |   266 ms/step |   3855 tok/s
+step  2870/3000 | loss 1.5675 | lr 1.04e-4 | grad norm  1.961 |   255 ms/step |   4022 tok/s
+step  2880/3000 | loss 1.6504 | lr 1.04e-4 | grad norm  2.088 |   243 ms/step |   4220 tok/s
+step  2890/3000 | loss 1.4912 | lr 1.03e-4 | grad norm  1.663 |   235 ms/step |   4358 tok/s
+step  2900/3000 | loss 1.6217 | lr 1.03e-4 | grad norm  1.721 |   252 ms/step |   4063 tok/s
+step  2910/3000 | loss 1.6920 | lr 1.02e-4 | grad norm  2.123 |   235 ms/step |   4361 tok/s
+step  2920/3000 | loss 1.6772 | lr 1.02e-4 | grad norm  1.832 |   237 ms/step |   4328 tok/s
+step  2930/3000 | loss 1.5317 | lr 1.01e-4 | grad norm  1.916 |   225 ms/step |   4556 tok/s
+step  2940/3000 | loss 1.5723 | lr 1.01e-4 | grad norm  1.857 |   220 ms/step |   4650 tok/s
+step  2950/3000 | loss 1.5749 | lr 1.01e-4 | grad norm  1.938 |   229 ms/step |   4478 tok/s
+step  2960/3000 | loss 1.6473 | lr 1.00e-4 | grad norm  2.054 |   237 ms/step |   4322 tok/s
+step  2970/3000 | loss 1.5404 | lr 1.00e-4 | grad norm  1.797 |   258 ms/step |   3973 tok/s
+step  2980/3000 | loss 1.5659 | lr 1.00e-4 | grad norm  1.935 |   249 ms/step |   4118 tok/s
+step  2990/3000 | loss 1.6094 | lr 1.00e-4 | grad norm  1.860 |   244 ms/step |   4201 tok/s
+step  3000/3000 | loss 1.6266 | lr 1.00e-4 | grad norm  1.817 |   239 ms/step |   4285 tok/s
+
+=== step 3000: val loss 1.7408  (best, saved)
+--- sample ---
+With is this Claimines.
+
+
+VOLUFO:
+I provost: I have your dost streap: that be not again:
+His ret these to grorables.
+
+ISABELLA:
+And thoughts, but in read other one look.
+
+HERMIONE:
+How good to her res
+--------------
+
+done in 13.1 min. best val loss 1.7408, checkpoint saved to model.bin

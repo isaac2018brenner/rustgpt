@@ -1,0 +1,17 @@
+[package]
+name = "rustgpt"
+version = "0.1.0"
+edition = "2021"
+description = "A GPT language model built from scratch in pure Rust: no dependencies, hand-written backprop."
+license = "MIT"
+
+[dependencies]
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+
+[profile.test]
+opt-level = 3

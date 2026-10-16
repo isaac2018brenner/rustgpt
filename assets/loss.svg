@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+<style>
+  .bg { fill: #fcfcfb; } .ink { fill: #0b0b0b; } .ink2 { fill: #52514e; }
+  .grid { stroke: #e4e3df; } .train { stroke: #2a78d6; } .val { stroke: #eb6834; } .dot { fill: #eb6834; }
+  .ring { stroke: #fcfcfb; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #1a1a19; } .ink { fill: #f0efec; } .ink2 { fill: #c3c2b7; }
+    .grid { stroke: #383835; } .train { stroke: #3987e5; } .val { stroke: #d95926; } .dot { fill: #d95926; }
+    .ring { stroke: #1a1a19; }
+  }
+</style>
+<rect class="bg" width="720" height="360" rx="8"/>
+<text class="ink" x="56" y="26" font-size="15" font-weight="600">Training a 0.8M-parameter GPT on Tiny Shakespeare</text>
+<text class="ink2" x="56" y="42" font-size="12">Cross-entropy loss (nats per character), 4 CPU threads</text>
+<line class="grid" x1="56" x2="600" y1="277.7" y2="277.7" stroke-width="1"/>
+<text class="ink2" x="48" y="281.7" font-size="11" text-anchor="end">1.5</text>
+<line class="grid" x1="56" x2="600" y1="239.4" y2="239.4" stroke-width="1"/>
+<text class="ink2" x="48" y="243.4" font-size="11" text-anchor="end">2.0</text>
+<line class="grid" x1="56" x2="600" y1="201.1" y2="201.1" stroke-width="1"/>
+<text class="ink2" x="48" y="205.1" font-size="11" text-anchor="end">2.5</text>
+<line class="grid" x1="56" x2="600" y1="162.9" y2="162.9" stroke-width="1"/>
+<text class="ink2" x="48" y="166.9" font-size="11" text-anchor="end">3.0</text>
+<line class="grid" x1="56" x2="600" y1="124.6" y2="124.6" stroke-width="1"/>
+<text class="ink2" x="48" y="128.6" font-size="11" text-anchor="end">3.5</text>
+<line class="grid" x1="56" x2="600" y1="86.3" y2="86.3" stroke-width="1"/>
+<text class="ink2" x="48" y="90.3" font-size="11" text-anchor="end">4.0</text>
+<text class="ink2" x="56.0" y="334" font-size="11" text-anchor="middle">0</text>
+<text class="ink2" x="146.7" y="334" font-size="11" text-anchor="middle">500</text>
+<text class="ink2" x="237.3" y="334" font-size="11" text-anchor="middle">1000</text>
+<text class="ink2" x="328.0" y="334" font-size="11" text-anchor="middle">1500</text>
+<text class="ink2" x="418.7" y="334" font-size="11" text-anchor="middle">2000</text>
+<text class="ink2" x="509.3" y="334" font-size="11" text-anchor="middle">2500</text>
+<text class="ink2" x="600.0" y="334" font-size="11" text-anchor="middle">3000</text>
+<text class="ink2" x="328" y="352" font-size="11" text-anchor="middle">training step</text>
+<path class="train" d="M56.2,71.6 L57.8,77.5 L59.6,85.6 L61.4,97.2 L63.3,108.8 L65.1,121.0 L66.9,133.3 L68.7,142.9 L70.5,152.3 L72.3,160.7 L74.1,167.5 L75.9,173.1 L77.8,177.8 L79.6,181.1 L81.4,184.7 L83.2,188.0 L85.0,190.7 L86.8,193.9 L88.6,195.4 L90.5,197.2 L92.3,199.7 L94.1,200.7 L95.9,200.9 L97.7,203.1 L99.5,204.7 L101.3,205.8 L103.1,207.9 L105.0,208.8 L106.8,208.6 L108.6,208.7 L110.4,209.0 L112.2,209.5 L114.0,210.6 L115.8,210.9 L117.7,210.5 L119.5,209.9 L121.3,209.9 L123.1,209.9 L124.9,210.6 L126.7,211.5 L128.5,212.6 L130.3,213.3 L132.2,214.0 L134.0,214.8 L135.8,215.8 L137.6,216.3 L139.4,216.2 L141.2,217.1 L143.0,217.3 L144.9,218.7 L146.7,218.6 L148.5,219.3 L150.3,220.0 L152.1,221.0 L153.9,220.9 L155.7,221.4 L157.5,223.1 L159.4,223.8 L161.2,223.4 L163.0,224.7 L164.8,225.8 L166.6,226.2 L168.4,227.3 L170.2,228.4 L172.1,227.4 L173.9,227.5 L175.7,228.0 L177.5,228.8 L179.3,229.1 L181.1,230.2 L182.9,230.1 L184.7,230.4 L186.6,229.8 L188.4,231.8 L190.2,232.5 L192.0,233.8 L193.8,234.2 L195.6,233.7 L197.4,232.9 L199.3,234.1 L201.1,234.9 L202.9,234.5 L204.7,235.4 L206.5,236.3 L208.3,237.6 L210.1,239.4 L211.9,238.4 L213.8,237.8 L215.6,237.9 L217.4,238.6 L219.2,239.2 L221.0,239.1 L222.8,238.7 L224.6,239.7 L226.5,239.7 L228.3,241.0 L230.1,241.5 L231.9,242.1 L233.7,240.9 L235.5,240.8 L237.3,241.5 L239.1,241.2 L241.0,242.8 L242.8,242.8 L244.6,244.5 L246.4,245.3 L248.2,245.8 L250.0,246.2 L251.8,247.4 L253.7,247.3 L255.5,246.6 L257.3,247.1 L259.1,247.2 L260.9,248.2 L262.7,246.8 L264.5,246.9 L266.3,247.4 L268.2,247.3 L270.0,248.4 L271.8,247.6 L273.6,248.8 L275.4,249.2 L277.2,248.2 L279.0,250.9 L280.9,251.2 L282.7,249.8 L284.5,249.9 L286.3,251.3 L288.1,250.8 L289.9,250.7 L291.7,250.6 L293.5,252.0 L295.4,251.8 L297.2,251.3 L299.0,250.8 L300.8,250.4 L302.6,248.9 L304.4,249.9 L306.2,251.7 L308.1,252.7 L309.9,253.8 L311.7,253.4 L313.5,253.4 L315.3,251.8 L317.1,251.2 L318.9,252.9 L320.7,252.7 L322.6,253.8 L324.4,254.3 L326.2,255.5 L328.0,253.7 L329.8,253.9 L331.6,254.6 L333.4,253.7 L335.3,254.1 L337.1,254.0 L338.9,253.8 L340.7,255.5 L342.5,256.3 L344.3,256.3 L346.1,256.3 L347.9,255.2 L349.8,256.6 L351.6,255.7 L353.4,258.5 L355.2,258.0 L357.0,258.8 L358.8,259.6 L360.6,260.0 L362.5,259.4 L364.3,259.4 L366.1,259.4 L367.9,259.4 L369.7,259.8 L371.5,260.4 L373.3,259.5 L375.1,260.4 L377.0,259.6 L378.8,258.9 L380.6,258.6 L382.4,257.7 L384.2,257.2 L386.0,259.1 L387.8,260.2 L389.7,261.9 L391.5,261.3 L393.3,261.8 L395.1,261.3 L396.9,261.4 L398.7,261.2 L400.5,261.8 L402.3,259.9 L404.2,261.2 L406.0,260.9 L407.8,261.0 L409.6,262.6 L411.4,264.0 L413.2,264.9 L415.0,265.0 L416.9,265.0 L418.7,266.0 L420.5,266.1 L422.3,264.0 L424.1,263.5 L425.9,263.7 L427.7,263.5 L429.5,266.3 L431.4,266.8 L433.2,266.6 L435.0,265.7 L436.8,266.5 L438.6,264.1 L440.4,264.1 L442.2,264.7 L444.1,265.4 L445.9,265.7 L447.7,264.7 L449.5,265.0 L451.3,263.5 L453.1,263.9 L454.9,264.8 L456.7,264.1 L458.6,264.6 L460.4,264.6 L462.2,265.2 L464.0,265.3 L465.8,265.5 L467.6,267.1 L469.4,267.0 L471.3,268.0 L473.1,268.2 L474.9,267.7 L476.7,268.5 L478.5,267.8 L480.3,267.3 L482.1,267.9 L483.9,268.8 L485.8,268.3 L487.6,269.2 L489.4,268.6 L491.2,269.0 L493.0,268.8 L494.8,268.2 L496.6,269.5 L498.5,269.3 L500.3,271.0 L502.1,272.2 L503.9,272.3 L505.7,272.0 L507.5,272.0 L509.3,271.0 L511.1,270.8 L513.0,269.9 L514.8,270.0 L516.6,270.7 L518.4,269.8 L520.2,269.8 L522.0,269.8 L523.8,269.9 L525.7,269.3 L527.5,269.2 L529.3,269.1 L531.1,269.2 L532.9,268.8 L534.7,269.3 L536.5,268.8 L538.3,269.4 L540.2,270.2 L542.0,270.4 L543.8,269.6 L545.6,269.7 L547.4,268.6 L549.2,269.2 L551.0,268.0 L552.9,268.9 L554.7,269.6 L556.5,268.5 L558.3,267.1 L560.1,267.3 L561.9,270.0 L563.7,270.4 L565.5,269.9 L567.4,269.7 L569.2,270.6 L571.0,271.1 L572.8,271.4 L574.6,273.0 L576.4,272.9 L578.2,271.6 L580.1,273.0 L581.9,272.0 L583.7,270.2 L585.5,269.0 L587.3,270.3 L589.1,270.7 L590.9,270.9 L592.7,270.0 L594.6,270.9 L596.4,271.3 L598.2,270.9 L600.0,270.3" fill="none" stroke-width="2" stroke-linejoin="round"/>
+<path class="val" d="M101.3,206.7 L146.7,219.4 L192.0,229.7 L237.3,234.5 L282.7,241.1 L328.0,245.4 L373.3,248.5 L418.7,251.9 L464.0,255.1 L509.3,257.3 L554.7,258.9 L600.0,259.3" fill="none" stroke-width="2" stroke-dasharray="5 4"/>
+<circle class="dot ring" cx="101.3" cy="206.7" r="4" stroke-width="2"/>
+<circle class="dot ring" cx="146.7" cy="219.4" r="4" stroke-width="2"/>
+<circle class="dot ring" cx="192.0" cy="229.7" r="4" stroke-width="2"/>
+<circle class="dot ring" cx="237.3" cy="234.5" r="4" stroke-width="2"/>
+<circle class="dot ring" cx="282.7" cy="241.1" r="4" stroke-width="2"/>
+<circle class="dot ring" cx="328.0" cy="245.4" r="4" stroke-width="2"/>
+<circle class="dot ring" cx="373.3" cy="248.5" r="4" stroke-width="2"/>
+<circle class="dot ring" cx="418.7" cy="251.9" r="4" stroke-width="2"/>
+<circle class="dot ring" cx="464.0" cy="255.1" r="4" stroke-width="2"/>
+<circle class="dot ring" cx="509.3" cy="257.3" r="4" stroke-width="2"/>
+<circle class="dot ring" cx="554.7" cy="258.9" r="4" stroke-width="2"/>
+<circle class="dot ring" cx="600.0" cy="259.3" r="4" stroke-width="2"/>
+<text class="ink" x="608.0" y="276.8" font-size="12">train 1.60</text>
+<text class="ink" x="608.0" y="260.8" font-size="12">val 1.74</text>
+<line class="train" x1="370" x2="390" y1="70" y2="70" stroke-width="2"/>
+<text class="ink2" x="396" y="74" font-size="12">train (smoothed)</text>
+<line class="val" x1="500" x2="520" y1="70" y2="70" stroke-width="2" stroke-dasharray="5 4"/>
+<text class="ink2" x="526" y="74" font-size="12">validation</text>
+</svg>
